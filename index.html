@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Integrador</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <a href="index.html">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projeto">projeto</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Área de Boas-vindas -->
+    <section id="home">
+      <div class="welcome-content">
+        <h2>Bem-vindo ao meu portifólio</h2>
+        <p>Ao longo do curso técnico em Multimídia, desenvolvi projetos que uniram criatividade, técnica e estratégia para criar conteúdos impactantes. Trabalhei em campanhas de marketing digital, criação de identidades visuais, edição de vídeos, design gráfico e desenvolvimento de sites.</p>
+      </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+      <div class="section-content">
+        <h2>Sobre</h2>
+        <p>Durante o curso técnico em Multimídia, desenvolvi uma série de projetos que refletem minha criatividade e habilidade técnica. Para compartilhar esses trabalhos, estou criando um portfólio online, onde você poderá explorar campanhas de marketing digital, identidades visuais, edições de vídeo, design gráfico e projetos de desenvolvimento web. O site será uma vitrine do meu aprendizado e das soluções que criei, destacando meu compromisso em transformar ideias em experiências visuais impactantes.</p>
+      </div>
+    </section>
+
+    <!-- Seção projeto -->
+    <section id="projeto">
+        <div class="section-content">
+          <h2>Meus Projetos</h2>
+          <div class="services">
+            <div class="service">
+              <i class="fas fa-hands-helping"></i>
+              <h3>
+                <a href="Reabilita+.pdf" target="_blank">
+                  Guia de Identidade Visual da Marca
+                </a>
+              </h3>
+              <p>A Identidade Visual da Marca é o conjunto de elementos visuais que representam a essência, valores e posicionamento de uma marca.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+      <div class="section-content">
+        <h2>Contato</h2>
+        <form action="enviar_formulario.php" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="socials">
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>2024 Desenvolvedor Daniel Almeida Coelho</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
